@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Impressum – Siso-Team</title>
+  <meta name="description" content="Impressum von Siso-Team – Kontaktdaten, Verantwortlicher, rechtliche Hinweise.">
+  <style>
+    :root{
+      --grad1:#0e4ebf; --grad2:#1e7ae7; --ink:#0b1220; --line:rgba(2,6,23,.12);
+      --panel:#fff; --muted:#4b5563;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#bfe3ff 0%, #eaf5ff 50%, #ffffff 100%);color:var(--ink);
+         font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Noto Sans,Arial,sans-serif}
+    header{position:sticky;top:0;background:linear-gradient(90deg,var(--grad1),var(--grad2));color:#fff;border-bottom:1px solid rgba(255,255,255,.25);padding:12px 0;box-shadow:0 6px 18px rgba(10,35,90,.25)}
+    .container{width:min(900px,92vw);margin:28px auto}
+    a{color:inherit;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .back a{color:#eef6ff}
+    h1{margin:0 0 14px}
+    h3{margin:22px 0 8px}
+    p{margin:8px 0}
+    .muted{opacity:.9}
+    footer{margin-top:28px;opacity:.9;color:#123; padding:20px;border-top:1px solid var(--line); background:linear-gradient(180deg,var(--grad2),var(--grad1)); color:#eaf6ff; box-shadow:0 -6px 18px rgba(10,35,90,.25)}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container back"><a href="index.html">← Zurück zur Startseite</a></div>
+</header>
+
+<main class="container">
+  <h1>Impressum</h1>
+
+  <p><strong>Siso-Team</strong><br>
+     Kreuzweg 70<br>
+     48249 Dülmen<br>
+     Deutschland</p>
+
+  <p>Telefon: <a href="tel:+4915202052689">0152 020 52689</a><br>
+     E-Mail: <a href="mailto:sisogebaeudereinigung@gmail.com">sisogebaeudereinigung@gmail.com</a></p>
+
+  <p>Inhaber: <strong>Mohammad Mohammad</strong><br>
+     Rechtsform: Einzelunternehmen<br>
+     Steuer-ID: <strong>87264033598</strong></p>
+
+  <p class="muted"><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br>
+     Mohammad Mohammad, Kreuzweg 70, 48249 Dülmen</p>
+
+  <h3>Haftung für Inhalte</h3>
+  <p>Wir sind gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8–10 TMG sind wir jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
+
+  <h3>Urheberrecht</h3>
+  <p>Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet.</p>
+
+  <p><a href="datenschutzerklaerung.html">Datenschutzerklärung</a></p>
+
+  <footer>© <span id="y"></span> Siso-Team</footer>
+</main>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
