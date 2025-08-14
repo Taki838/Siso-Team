@@ -117,6 +117,7 @@
       .cta:hover{transform:none}
     }
   </style>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <!-- Header -->
@@ -163,8 +164,8 @@
     <div class="container hero-grid">
       <div>
         <div class="kicker">ZUVERLÄSSIGE GEWERBLICHE REINIGUNG</div>
-        <h1>Ihr zuverlässiger Reinigungsservice</h1>
-        <p class="lead">Siso-Team ist ein zuverlässiges Reinigungsunternehmen. Wir arbeiten gründlich, flexibel und zu fairen Preisen – privat & gewerblich.</p>
+        <h1 class="fade-slide">Ihr zuverlässiger Reinigungsservice</h1>
+        <p class="lead fade-slide">Siso-Team ist ein zuverlässiges Reinigungsunternehmen. Wir arbeiten gründlich, flexibel und zu fairen Preisen – privat & gewerblich.</p>
         <p style="margin-top:18px">
           <a class="cta" href="https://wa.me/4915202052689?text=Hallo%20Siso%20Team,%20ich%20brauche%20ein%20Angebot." target="_blank" rel="noopener">Direkt per WhatsApp</a>
           &nbsp; <a class="cta" href="tel:+4915202052689">Anrufen</a>
@@ -178,7 +179,7 @@
 
   <!-- Über uns -->
   <section id="about">
-    <div class="container">
+    <div class="container reveal">
       <h2>Warum Siso-Team?</h2>
       <div class="workbox">
         <p><strong>Erfahrung & Qualität:</strong> Erfahrene Teams, hochwertige Reinigungsprodukte und strenge Hygienestandards – für sichtbar bessere Ergebnisse.</p>
@@ -189,7 +190,7 @@
 
   <!-- Arbeitsplätze (TEXT ONLY) -->
   <section id="arbeitsplaetze">
-    <div class="container">
+    <div class="container reveal">
       <h2>Wir arbeiten mit allen Arbeitsplatztypen</h2>
       <div class="workbox">
         <p>Wir betreuen private Haushalte und gewerbliche Kunden gleichermaßen – flexibel, diskret und zuverlässig. Typische Einsatzorte:</p>
@@ -207,7 +208,7 @@
   </section>
 
   <!-- Kontakte / Footer -->
-  <footer id="kontakte">
+  <footer id="kontakte" class="reveal">
     <div class="container footer-grid">
       <div>
         <h2>Kontakte</h2>
@@ -246,5 +247,6 @@
   // Jahr im Footer
   document.getElementById('y').textContent = new Date().getFullYear();
 </script>
+<script src="assets/script.js"></script>
 </body>
 </html>
